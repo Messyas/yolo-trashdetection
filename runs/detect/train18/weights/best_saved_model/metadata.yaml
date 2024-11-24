@@ -1,0 +1,17 @@
+description: Ultralytics best model trained on /home/messyas/yolo/oceanplastic/data.yaml
+author: Ultralytics
+date: '2024-11-23T22:43:49.900942'
+version: 8.3.36
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Glass
+  1: Metal
+  2: Plastic
+  3: Trash
